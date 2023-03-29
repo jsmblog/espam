@@ -6,7 +6,7 @@ const NavBar = ({logoEspam , logoUser , menu}) => {
     const handleClickMenu = () => {
         setIsOn(!isOn)
     }
-    const menuOnClick = (isOn) ? "menuIsOn" : ""
+    const menuOnClick = (isOn) ? "menuIsOn bounce-in-right" : ""
   return (
    <>
    <div className={`${menuOnClick} onoff`}>
@@ -27,7 +27,7 @@ const NavBar = ({logoEspam , logoUser , menu}) => {
                             </span>
                     </div>
                     <div>
-                        <img onClick={handleClickMenu} className='positionMenu' width={50} src={menu} alt="" />
+                        <img onClick={handleClickMenu} className='positionMenu pulsate-bck' width={50} src={menu} alt="" />
                     </div>
                 </div>
                     <div className='contSelect'>

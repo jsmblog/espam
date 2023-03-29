@@ -143,4 +143,144 @@
               animation-timing-function: ease-out;
     }
   }
-  
+  .bounce-in-right {
+	-webkit-animation: bounce-in-right 2.5s ;
+	        animation: bounce-in-right 2.5s ;
+}
+@-webkit-keyframes bounce-in-right {
+        0% {
+          -webkit-transform: translateX(600px);
+                  transform: translateX(600px);
+          -webkit-animation-timing-function: ease-in;
+                  animation-timing-function: ease-in;
+          opacity: 0;
+        }
+        38% {
+          -webkit-transform: translateX(0);
+                  transform: translateX(0);
+          -webkit-animation-timing-function: ease-out;
+                  animation-timing-function: ease-out;
+          opacity: 1;
+        }
+        55% {
+          -webkit-transform: translateX(68px);
+                  transform: translateX(68px);
+          -webkit-animation-timing-function: ease-in;
+                  animation-timing-function: ease-in;
+        }
+        72% {
+          -webkit-transform: translateX(0);
+                  transform: translateX(0);
+          -webkit-animation-timing-function: ease-out;
+                  animation-timing-function: ease-out;
+        }
+        81% {
+          -webkit-transform: translateX(32px);
+                  transform: translateX(32px);
+          -webkit-animation-timing-function: ease-in;
+                  animation-timing-function: ease-in;
+        }
+        90% {
+          -webkit-transform: translateX(0);
+                  transform: translateX(0);
+          -webkit-animation-timing-function: ease-out;
+                  animation-timing-function: ease-out;
+        }
+        95% {
+          -webkit-transform: translateX(8px);
+                  transform: translateX(8px);
+          -webkit-animation-timing-function: ease-in;
+                  animation-timing-function: ease-in;
+        }
+        100% {
+          -webkit-transform: translateX(0);
+                  transform: translateX(0);
+          -webkit-animation-timing-function: ease-out;
+                  animation-timing-function: ease-out;
+        }
+      }
+      @keyframes bounce-in-right {
+        0% {
+          -webkit-transform: translateX(600px);
+                  transform: translateX(600px);
+          -webkit-animation-timing-function: ease-in;
+                  animation-timing-function: ease-in;
+          opacity: 0;
+        }
+        38% {
+          -webkit-transform: translateX(0);
+                  transform: translateX(0);
+          -webkit-animation-timing-function: ease-out;
+                  animation-timing-function: ease-out;
+          opacity: 1;
+        }
+        55% {
+          -webkit-transform: translateX(68px);
+                  transform: translateX(68px);
+          -webkit-animation-timing-function: ease-in;
+                  animation-timing-function: ease-in;
+        }
+        72% {
+          -webkit-transform: translateX(0);
+                  transform: translateX(0);
+          -webkit-animation-timing-function: ease-out;
+                  animation-timing-function: ease-out;
+        }
+        81% {
+          -webkit-transform: translateX(32px);
+                  transform: translateX(32px);
+          -webkit-animation-timing-function: ease-in;
+                  animation-timing-function: ease-in;
+        }
+        90% {
+          -webkit-transform: translateX(0);
+                  transform: translateX(0);
+          -webkit-animation-timing-function: ease-out;
+                  animation-timing-function: ease-out;
+        }
+        95% {
+          -webkit-transform: translateX(8px);
+                  transform: translateX(8px);
+          -webkit-animation-timing-function: ease-in;
+                  animation-timing-function: ease-in;
+        }
+        100% {
+          -webkit-transform: translateX(0);
+                  transform: translateX(0);
+          -webkit-animation-timing-function: ease-out;
+                  animation-timing-function: ease-out;
+        }
+      }
+.pulsate-bck {
+	-webkit-animation: pulsate-bck 3s infinite ;
+	        animation: pulsate-bck 3s infinite ;
+}    
+@-webkit-keyframes pulsate-bck {
+        0% {
+          -webkit-transform: scale(1);
+                  transform: scale(1);
+        }
+        50% {
+          -webkit-transform: scale(0.9);
+                  transform: scale(0.9);
+        }
+        100% {
+          -webkit-transform: scale(1);
+                  transform: scale(1);
+        }
+      }
+      @keyframes pulsate-bck {
+        0% {
+          -webkit-transform: scale(1);
+                  transform: scale(1);
+        }
+        50% {
+          -webkit-transform: scale(0.9);
+                  transform: scale(0.9);
+        }
+        100% {
+          -webkit-transform: scale(1);
+                  transform: scale(1);
+        }
+      }
+      

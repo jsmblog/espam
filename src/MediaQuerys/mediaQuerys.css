@@ -1,5 +1,134 @@
+/*1080px ft 2400px*/
+@media screen and (min-width: 1080px) and (max-width:2400px) {
+    .contSelect {
+        margin-right: 5rem;
+    }
+ 
+    .contLogoEspam img {
+    width: 80px;
+    position: relative;
+    bottom: 35rem;
+   }
+   .nameUniversity {
+    align-items: center;
+    bottom: 30rem;
+    color: var(--white);
+    letter-spacing: .1rem;
+    text-shadow: 3px 3px 1px var(--green);
+    font-size: .7rem;
+    padding: 0 3.7rem;
+}
+.contImgFounder  {
+    position: relative;
+    bottom: 20rem;
+}
+.contImgMfl img {
+    width: 320px;
+    height: 320px;
+}
+.paragraph {
+    bottom: 17rem;
+    
+}
+.paragraph p {
+    font-size: 1.5rem;
+}
+}
+/*820px ft 1080px*/
+@media  screen and (min-width:820px ) and (max-width:1079px) {
+    .contSelect {
+        margin-right: 5rem;
+    }
+ 
+    .contLogoEspam img {
+    width: 80px;
+    position: relative;
+    bottom: 35rem;
+   }
+   .nameUniversity {
+    align-items: center;
+    bottom: 30rem;
+    color: var(--white);
+    letter-spacing: .1rem;
+    text-shadow: 3px 3px 1px var(--green);
+    font-size: .7rem;
+    padding: 0 3.7rem;
+}
+.contImgFounder  {
+    position: relative;
+    bottom: 20rem;
+}
+.contImgMfl img {
+    width: 320px;
+    height: 320px;
+}
+.paragraph {
+    bottom: 17rem;
+    
+}
+.paragraph p {
+    font-size: 1.5rem;
+}
+}
+/*414px ft 667px*/
+@media  screen and (min-width:414px ) and (max-width:819px) {
+    .contLogoEspam img {
+        width: 60px;
+        position: relative;
+        bottom: 25rem;
+       }
+       .nameUniversity {
+        align-items: center;
+        bottom: 20rem;
+        color: var(--white);
+        letter-spacing: .1rem;
+        text-shadow: 3px 3px 1px var(--green);
+        font-size: .45rem;
+        padding: 0 5.6rem;
+    }
+    .contImgFounder  {
+        position: relative;
+        bottom: 14rem;
+    }
+    .contImgMfl img {
+        width: 200px;
+        height: 200px;
+    }
+    .paragraph {
+        bottom: 12rem;
+        
+    }
+    .paragraph p {
+        font-size: 1rem;
+    }
+    .contSelect , .imgEspam {
+        display: none;
+    }
+   .positionMenu {
+    display: block;
+    margin-right: 10rem;
+   }
+   .menuIsOn {
+    width: 50%;
+    height: 100%;
+    display: block;
+    padding: 5rem .5rem;
+    color: var(--green);
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    border-right: 10px solid var(--green);
+}
+.menuIsOn {
+    position: fixed;
+}
+}
+
 /*375px ft 667px*/
-@media  screen and (min-width:375px ) and (max-width:667px) {
+@media  screen and (min-width:375px ) and (max-width:413px) {
     .contSelect , .imgEspam {
         display: none;
     }
@@ -75,7 +204,7 @@
 
 }
 /*320px ft 480px*/
-@media  screen and (min-width:320px ) and (max-width:480px) {
+@media  screen and (min-width:320px ) and (max-width:412px) {
     .contSelect , .imgEspam {
         display: none;
     }
@@ -94,23 +223,23 @@
     color: var(--white);
     letter-spacing: .1rem;
     text-shadow: 3px 3px 1px var(--green);
-    font-size: .5rem;
-    padding: 0 4.5rem;
+    font-size: .4rem;
+    padding: 0 3rem;
 }
 .contImgFounder  {
     position: relative;
     bottom: 15.5rem;
 }
 .contImgMfl img {
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
 }
 .paragraph {
     bottom: 15.2rem;
     
 }
 .paragraph p {
-    font-size: 1.15rem;
+    font-size: .7rem;
 }
 .contSelect {
     display: none;
