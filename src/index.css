@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Lora', serif;
+}
+/*root*/
+:root {
+  --green-principal : #3E9E54;
+  --green-opacity-70 :#3e9e54cc;
+  --green :green;
+  --white: white;
+  --gray: gray;
+  --black: black;
+  --green-light: #DCF9C4;
+  --gray7373:#737373;
+}

@@ -1,0 +1,146 @@
+.onoff {
+        display: none;
+}
+.navBar {
+   z-index: 2;
+    position: fixed;
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--green-principal);
+    box-shadow: 0 4px 12px 1px var(--green-opacity-70);
+    border-bottom: 1px solid var(--green);
+    align-items: center;
+}
+.imgEspam {
+    width: 60px;
+}
+.imgUser {
+    width: 40px;
+}
+.contImgLogos {
+    align-items: center;
+    align-content: center;
+    padding: .5rem;
+    display: flex;
+    width: 10%;
+    gap: 1rem;
+    justify-content: space-between;
+}
+.sga {
+    display: flex;
+    justify-content: center;
+    color: var(--white);
+    letter-spacing: .1rem;
+}
+.contImgUser {
+    cursor: pointer;
+    background-color: var(--green);
+    padding: .3rem;
+    border-radius: 7px;
+    box-shadow: 2px 3px 5px 1px var(--black) ;
+}
+.contSelect {
+    align-content: center;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-evenly;
+}
+.contSelect select {
+    cursor: pointer;
+    color: var(--white);
+    padding: .2rem 1rem;
+    background-color: var(--green);
+    border: 1px solid var(--green);
+    border-radius: 7px;
+}
+.contSelect select:hover {
+    color: var(--green);
+    background-color: var(--white);
+    font-weight: bold;
+    transform: scale(1.2);
+    transition: .5s ease-in-out;
+}
+.contImgUser:hover {
+    background-color: var(--green-opacity-70);
+    transition: 1s ease-in-out;
+}
+.positionMenu {
+        display: none;
+}
+/*animations*/
+.heartbeat {
+	-webkit-animation: heartbeat 3s cubic-bezier(0.165, 0.840, 0.440, 1.000) infinite ;
+	        animation: heartbeat 3s cubic-bezier(0.165, 0.840, 0.440, 1.000) infinite ;
+}
+@-webkit-keyframes heartbeat {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  @keyframes heartbeat {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  

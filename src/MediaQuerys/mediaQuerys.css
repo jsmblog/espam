@@ -1,0 +1,152 @@
+/*375px ft 667px*/
+@media  screen and (min-width:375px ) and (max-width:667px) {
+    .contSelect , .imgEspam {
+        display: none;
+    }
+   .positionMenu {
+    display: block;
+    margin-right: 10rem;
+   }
+   .contLogoEspam img {
+    width: 60px;
+    position: relative;
+    bottom: 18rem;
+   }
+   .nameUniversity {
+    align-items: center;
+    bottom: 17rem;
+    color: var(--white);
+    letter-spacing: .1rem;
+    text-shadow: 3px 3px 1px var(--green);
+    font-size: .5rem;
+    padding: 0 3.7rem;
+}
+.contImgFounder  {
+    position: relative;
+    bottom: 12rem;
+}
+.contImgMfl img {
+    width: 150px;
+    height: 150px;
+}
+.paragraph {
+    bottom: 11.8rem;
+    
+}
+.paragraph p {
+    font-size: .8rem;
+}
+.contSelect {
+    display: none;
+}
+.contValuesHuman img {
+    width: 35px;
+}
+.contValuesHuman span {
+    font-size: .8rem;
+}
+.contValuesHuman div {
+    width: 40%;
+}
+.offerAcademic {
+    font-size: .8rem;
+}
+.paragraphOffer {
+    padding: 1rem .5rem 0 .5rem;
+    font-size: .9rem;
+}
+.menuIsOn {
+    width: 50%;
+    height: 100%;
+    display: block;
+    padding: 5rem .5rem;
+    color: var(--green);
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    border-right: 10px solid var(--green);
+}
+.menuIsOn {
+    position: fixed;
+}
+
+}
+/*320px ft 480px*/
+@media  screen and (min-width:320px ) and (max-width:480px) {
+    .contSelect , .imgEspam {
+        display: none;
+    }
+   .positionMenu {
+    display: block;
+    margin-right: 10rem;
+   }
+   .contLogoEspam img {
+    width: 80px;
+    position: relative;
+    bottom: 18rem;
+   }
+   .nameUniversity {
+    align-items: center;
+    bottom: 17rem;
+    color: var(--white);
+    letter-spacing: .1rem;
+    text-shadow: 3px 3px 1px var(--green);
+    font-size: .5rem;
+    padding: 0 4.5rem;
+}
+.contImgFounder  {
+    position: relative;
+    bottom: 15.5rem;
+}
+.contImgMfl img {
+    width: 180px;
+    height: 180px;
+}
+.paragraph {
+    bottom: 15.2rem;
+    
+}
+.paragraph p {
+    font-size: 1.15rem;
+}
+.contSelect {
+    display: none;
+}
+.contValuesHuman img {
+    width: 35px;
+}
+.contValuesHuman span {
+    font-size: .8rem;
+}
+.contValuesHuman div {
+    width: 40%;
+}
+.offerAcademic {
+    font-size: .8rem;
+}
+.paragraphOffer {
+    padding: 1rem .5rem 0 .5rem;
+    font-size: .9rem;
+}
+.menuIsOn {
+    width: 50%;
+    height: 100%;
+    display: block;
+    padding: 5rem .5rem;
+    color: var(--green);
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    border-right: 10px solid var(--green);
+}
+.menuIsOn {
+    position: fixed;
+}
+
+}

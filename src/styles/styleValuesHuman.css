@@ -1,0 +1,167 @@
+.characterized {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    color: var(--green-principal);
+    letter-spacing: .1rem;
+}
+.contValuesHuman img {
+    width: 50px;
+}
+.contValuesHuman {
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+    gap: 1rem;
+    text-transform: uppercase;
+    color: var(--white);
+
+}
+.contValuesHuman div {
+    box-shadow: 0px 5px 15px 1px var(--gray);
+    background-color: var(--green-principal);
+    border-radius: 30px;
+    width: 25%;
+    padding: .5rem ;
+    border-bottom: 4px solid var(--green);
+}
+.contOfferAcademic {
+    padding: 2rem 0;
+    background-color: var(--green-light);
+}
+.offerAcademic {
+    display: flex;
+    justify-content: center;
+    color: var(--green);
+    border-bottom: 1px solid var(--green);
+    padding-bottom: 1rem;
+}
+.paragraphOffer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+    color: var(--gray7373);
+}
+/*animations*/
+.blink-2 {
+	-webkit-animation: blink-2 5s infinite ;
+	        animation: blink-2 5s infinite ;
+}
+@-webkit-keyframes blink-2 {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.2;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes blink-2 {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.2;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+.flicker-2 {
+	-webkit-animation: flicker-2 3s infinite ;
+	        animation: flicker-2 3s infinite ;
+}
+@-webkit-keyframes flicker-2 {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    41.99% {
+      opacity: 1;
+    }
+    42% {
+      opacity: 0;
+    }
+    43% {
+      opacity: 0;
+    }
+    43.01% {
+      opacity: 1;
+    }
+    45.99% {
+      opacity: 1;
+    }
+    46% {
+      opacity: 0;
+    }
+    46.9% {
+      opacity: 0;
+    }
+    46.91% {
+      opacity: 1;
+    }
+    51.99% {
+      opacity: 1;
+    }
+    52% {
+      opacity: 0;
+    }
+    52.8% {
+      opacity: 0;
+    }
+    52.81% {
+      opacity: 1;
+    }
+  }
+  @keyframes flicker-2 {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    41.99% {
+      opacity: 1;
+    }
+    42% {
+      opacity: 0;
+    }
+    43% {
+      opacity: 0;
+    }
+    43.01% {
+      opacity: 1;
+    }
+    45.99% {
+      opacity: 1;
+    }
+    46% {
+      opacity: 0;
+    }
+    46.9% {
+      opacity: 0;
+    }
+    46.91% {
+      opacity: 1;
+    }
+    51.99% {
+      opacity: 1;
+    }
+    52% {
+      opacity: 0;
+    }
+    52.8% {
+      opacity: 0;
+    }
+    52.81% {
+      opacity: 1;
+    }
+  }
+  
