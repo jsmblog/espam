@@ -12,7 +12,7 @@ const NavBar = ({logoEspam , logoUser , menu}) => {
    <div className={`${menuOnClick} onoff`}>
     <h2>University</h2>
     <h2>News</h2>
-    <h2>Carers</h2>
+    <h2>Careers</h2>
     <h2>Contacts</h2>
    </div>
     <div>

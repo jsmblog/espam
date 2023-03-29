@@ -23,15 +23,15 @@
     bottom: 20rem;
 }
 .contImgMfl img {
-    width: 320px;
-    height: 320px;
+    width: 280px;
+    height: 280px;
 }
 .paragraph {
-    bottom: 17rem;
+    bottom: 17.5rem;
     
 }
 .paragraph p {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 }
 /*820px ft 1080px*/
@@ -109,6 +109,7 @@
     margin-right: 10rem;
    }
    .menuIsOn {
+    z-index: 1;
     width: 50%;
     height: 100%;
     display: block;
@@ -124,6 +125,13 @@
 }
 .menuIsOn {
     position: fixed;
+}
+.contValuesHuman span {
+    font-size: .6rem;
+}
+.paragraphOffer {
+    padding: 1rem 0rem 0 1rem;
+    font-size: 1rem;
 }
 }
 
@@ -185,6 +193,7 @@
     font-size: .9rem;
 }
 .menuIsOn {
+    z-index: 1;
     width: 50%;
     height: 100%;
     display: block;
@@ -261,6 +270,7 @@
     font-size: .9rem;
 }
 .menuIsOn {
+    z-index: 1;
     width: 50%;
     height: 100%;
     display: block;

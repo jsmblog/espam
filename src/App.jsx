@@ -14,6 +14,19 @@ import responsibility from './photos/archivos para la pagina web ESPAM/responsab
 import environment from './photos/archivos para la pagina web ESPAM/salve-el-planeta.png'
 import impulse from './photos/archivos para la pagina web ESPAM/impulsar.png'
 import menu from './photos/archivos para la pagina web ESPAM/menu.png'
+import SliderCareers from './assets/components/SliderCareers'
+import agricola from './photos/archivos para la pagina web ESPAM/agricola.png'
+import agroforestal from './photos/archivos para la pagina web ESPAM/agroforestal.png'
+import agroindustria from './photos/archivos para la pagina web ESPAM/agroindustria.png'
+import ambiente from './photos/archivos para la pagina web ESPAM/ambiente.png'
+import computacion from './photos/archivos para la pagina web ESPAM/computacion.png'
+import electronica from './photos/archivos para la pagina web ESPAM/electronica.png'
+import empresas from './photos/archivos para la pagina web ESPAM/empresas.png'
+import publica from './photos/archivos para la pagina web ESPAM/publica.png'
+import riesgos from './photos/archivos para la pagina web ESPAM/riesgos.png'
+import turismo from './photos/archivos para la pagina web ESPAM/turismo.png'
+import veterinaria from './photos/archivos para la pagina web ESPAM/veterinaria.png'
+import flecha from './photos/archivos para la pagina web ESPAM/flecha.png'
 
 
 function App() {
@@ -23,6 +36,8 @@ function App() {
       <NavBar logoEspam={logoEspam} logoUser={logoUser} menu={menu} />
       <Principal logoEspam={logoEspam} campusPolitecnico={campusPolitecnico} imgFounder={imgFounder} />
       <ValuesHuman commitment={commitment} security={security} trust={trust} honesty={honesty} responsibility={responsibility} environment={environment} impulse={impulse} />
+      <SliderCareers agricola={agricola} agroforestal={agroforestal} agroindustria={agroindustria} ambiente={ambiente}  computacion={computacion} empresas={empresas} publica={publica} riesgos={riesgos} turismo={turismo} veterinaria={veterinaria} flecha={flecha}
+       />
     </div>
   )
 }
