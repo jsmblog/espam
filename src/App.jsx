@@ -27,7 +27,12 @@ import riesgos from './photos/archivos para la pagina web ESPAM/riesgos.png'
 import turismo from './photos/archivos para la pagina web ESPAM/turismo.png'
 import veterinaria from './photos/archivos para la pagina web ESPAM/veterinaria.png'
 import flecha from './photos/archivos para la pagina web ESPAM/flecha.png'
-
+import Rules from './assets/components/Rules'
+import admision from './photos/archivos para la pagina web ESPAM/admision.png'
+import reglamentacion from './photos/archivos para la pagina web ESPAM/reglamentacion.png'
+import transparencia from './photos/archivos para la pagina web ESPAM/transparencia.png'
+import merecer from './photos/archivos para la pagina web ESPAM/merecer.png'
+import biblioteca from './photos/archivos para la pagina web ESPAM/biblioteca.png'
 
 function App() {
 
@@ -38,6 +43,7 @@ function App() {
       <ValuesHuman commitment={commitment} security={security} trust={trust} honesty={honesty} responsibility={responsibility} environment={environment} impulse={impulse} />
       <SliderCareers agricola={agricola} agroforestal={agroforestal} agroindustria={agroindustria} ambiente={ambiente}  computacion={computacion} empresas={empresas} publica={publica} riesgos={riesgos} turismo={turismo} veterinaria={veterinaria} flecha={flecha}
        />
+       <Rules admision={admision} reglamentacion={reglamentacion} transparencia={transparencia} merecer={merecer} biblioteca={biblioteca} />
     </div>
   )
 }

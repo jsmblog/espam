@@ -1,0 +1,41 @@
+.moreInfo {
+    display: flex;
+    justify-content: center;
+    color: var(--green);
+    padding-top: 1rem;
+}
+.moreInfo h2 {
+    border-bottom: 2px solid var(--green);
+    padding: .5rem 2rem;
+}
+.contMoreInfoCard {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+    margin-top: .5rem;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    
+}
+.contMoreInfoCard img {
+    width: 45px;
+}
+.rulesCard {
+    justify-content: center;
+    box-shadow: 2px 3px 10px 1px var(--gray7373);
+    background-color: var(--green-principal);
+    padding: .2rem;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 2px solid var(--green);
+    border-radius: 4px;
+    width: 25%;
+    display: flex;
+    gap: .5rem;
+}
+.rulesCard span {
+    color: var(--white);
+    font-size: .8rem;
+}
