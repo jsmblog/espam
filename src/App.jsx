@@ -39,7 +39,14 @@ import twiter from './photos/archivos para la pagina web ESPAM/twiter.png'
 import youtube from './photos/archivos para la pagina web ESPAM/youtube.png'
 import instagram from './photos/archivos para la pagina web ESPAM/instagram.png'
 import flickr from './photos/archivos para la pagina web ESPAM/flickr.png'
+import noticias from './photos/archivos para la pagina web ESPAM/noticias.png'
 import Contacts from './assets/components/Contacts'
+import News from './assets/components/News'
+import img1 from './photos/archivos para la pagina web ESPAM/img1.png'
+import img2 from './photos/archivos para la pagina web ESPAM/img2.png'
+import img3 from './photos/archivos para la pagina web ESPAM/img3.png'
+import img4 from './photos/archivos para la pagina web ESPAM/img4.png'
+import img5 from './photos/archivos para la pagina web ESPAM/img5.png'
 
 function App() {
 
@@ -47,8 +54,9 @@ function App() {
     <div className="App">
       <NavBar logoEspam={logoEspam} logoUser={logoUser} menu={menu} />
       <Principal logoEspam={logoEspam} campusPolitecnico={campusPolitecnico} imgFounder={imgFounder} />
-      <ValuesHuman commitment={commitment} security={security} trust={trust} honesty={honesty} responsibility={responsibility} environment={environment} impulse={impulse} />
-      <SliderCareers agricola={agricola} agroforestal={agroforestal} agroindustria={agroindustria} ambiente={ambiente}  computacion={computacion} empresas={empresas} publica={publica} riesgos={riesgos} turismo={turismo} veterinaria={veterinaria} flecha={flecha}
+      <ValuesHuman  commitment={commitment} security={security} trust={trust} honesty={honesty} responsibility={responsibility} environment={environment} impulse={impulse} />
+      <News noticias={noticias} img1={img1} img2={img2} img3={img3} img4={img4} img5={img5} />
+      <SliderCareers agricola={agricola} agroforestal={agroforestal} agroindustria={agroindustria} ambiente={ambiente}  computacion={computacion} electronica={electronica} empresas={empresas} publica={publica} riesgos={riesgos} turismo={turismo} veterinaria={veterinaria} flecha={flecha}
        />
        <Rules admision={admision} reglamentacion={reglamentacion} transparencia={transparencia} merecer={merecer} biblioteca={biblioteca} />
        <Contacts mapa={mapa} facebook={facebook} twiter={twiter} instagram={instagram} flickr={flickr} youtube={youtube}  />

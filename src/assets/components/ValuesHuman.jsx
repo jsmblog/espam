@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ValuesHuman = ({commitment , security , trust , honesty , responsibility , environment , impulse}) => {
+const ValuesHuman = ({commitment , security , trust , honesty , responsibility , environment , impulse , noticias}) => {
   return (
     <>
     <div>
