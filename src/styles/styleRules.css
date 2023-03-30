@@ -39,3 +39,7 @@
     color: var(--white);
     font-size: .8rem;
 }
+.rulesCard:hover {
+    background-color: var(--gray7373);
+    cursor: pointer;
+}

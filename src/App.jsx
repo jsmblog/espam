@@ -32,7 +32,14 @@ import admision from './photos/archivos para la pagina web ESPAM/admision.png'
 import reglamentacion from './photos/archivos para la pagina web ESPAM/reglamentacion.png'
 import transparencia from './photos/archivos para la pagina web ESPAM/transparencia.png'
 import merecer from './photos/archivos para la pagina web ESPAM/merecer.png'
+import mapa from './photos/archivos para la pagina web ESPAM/mapa.png'
 import biblioteca from './photos/archivos para la pagina web ESPAM/biblioteca.png'
+import facebook from './photos/archivos para la pagina web ESPAM/facebook.png'
+import twiter from './photos/archivos para la pagina web ESPAM/twiter.png'
+import youtube from './photos/archivos para la pagina web ESPAM/youtube.png'
+import instagram from './photos/archivos para la pagina web ESPAM/instagram.png'
+import flickr from './photos/archivos para la pagina web ESPAM/flickr.png'
+import Contacts from './assets/components/Contacts'
 
 function App() {
 
@@ -44,6 +51,7 @@ function App() {
       <SliderCareers agricola={agricola} agroforestal={agroforestal} agroindustria={agroindustria} ambiente={ambiente}  computacion={computacion} empresas={empresas} publica={publica} riesgos={riesgos} turismo={turismo} veterinaria={veterinaria} flecha={flecha}
        />
        <Rules admision={admision} reglamentacion={reglamentacion} transparencia={transparencia} merecer={merecer} biblioteca={biblioteca} />
+       <Contacts mapa={mapa} facebook={facebook} twiter={twiter} instagram={instagram} flickr={flickr} youtube={youtube}  />
     </div>
   )
 }

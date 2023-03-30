@@ -1,0 +1,142 @@
+.Contact , .smsContact , .contHourAtt {
+    display:flex;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+.Contact h3 {
+    color:var(--gray);
+    padding: 1rem 2.5rem;
+    border-bottom:3px solid var(--green);
+    border-top:3px solid var(--green);
+}
+.contContacts {
+    padding:1.5rem 0;
+    background-color: var(--green-light);
+}
+.smsContact {
+    font-size: .9rem;
+    color:var(--gray)
+}
+.hourAtt {
+    box-shadow: 0 0 25px 1px var(--green);
+    background-color: var(--green-principal);
+    color: var(--white);
+    padding: .5rem;
+    margin-top: 1rem;
+}
+.contCardInfo {
+    padding: 3rem 0;
+}
+.contCardInfo {
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    gap: .9rem;
+}
+.boxContact {
+    background-color: var(--white);
+    padding: .7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+    justify-content: space-around;
+    border-radius: 8px;
+    box-shadow: 0 0 15px 1px var(--green);
+    border: 2px solid var(--gray);
+}
+.boxContact h4 {
+    color: var(--green);
+}
+.boxContact span {
+    color: var(--gray7373);
+    font-weight: bold;
+}
+.lastSection {
+    display: flex;
+    justify-content: center;
+}
+.lastSection h5 {
+    color: var(--gray);
+}
+.lastSection h4 {
+    color: var(--green);
+    font-weight: bold;
+}
+.lastSection span {
+    color: red;
+}
+/*animations*/
+.heartbeat {
+	-webkit-animation: heartbeat 10s infinite ;
+	        animation: heartbeat 10s infinite ;
+}
+@-webkit-keyframes heartbeat {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  @keyframes heartbeat {
+    from {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    10% {
+      -webkit-transform: scale(0.91);
+              transform: scale(0.91);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    17% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    33% {
+      -webkit-transform: scale(0.87);
+              transform: scale(0.87);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    45% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  
