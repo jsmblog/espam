@@ -47,13 +47,19 @@ import img2 from './photos/archivos para la pagina web ESPAM/img2.png'
 import img3 from './photos/archivos para la pagina web ESPAM/img3.png'
 import img4 from './photos/archivos para la pagina web ESPAM/img4.png'
 import img5 from './photos/archivos para la pagina web ESPAM/img5.png'
-
+import campusImg from './photos/archivos para la pagina web ESPAM/campus.jpg'
+import nacido from './photos/archivos para la pagina web ESPAM/nacido.png'
+import gerente from './photos/archivos para la pagina web ESPAM/gerente.png'
+import alcalde from './photos/archivos para la pagina web ESPAM/alcalde.png'
+import vicepresidente from './photos/archivos para la pagina web ESPAM/vicepresidente.png'
+import tumba from './photos/archivos para la pagina web ESPAM/tumba.png'
+import cerrar from './photos/archivos para la pagina web ESPAM/cerrar.png'
 function App() {
 
   return (
     <div className="App">
       <NavBar logoEspam={logoEspam} logoUser={logoUser} menu={menu} />
-      <Principal logoEspam={logoEspam} campusPolitecnico={campusPolitecnico} imgFounder={imgFounder} />
+      <Principal cerrar={cerrar} nacido={nacido} gerente={gerente} alcalde={alcalde} vicepresidente={vicepresidente} tumba={tumba} campusImg={campusImg} logoEspam={logoEspam} campusPolitecnico={campusPolitecnico} imgFounder={imgFounder} />
       <ValuesHuman  commitment={commitment} security={security} trust={trust} honesty={honesty} responsibility={responsibility} environment={environment} impulse={impulse} />
       <News noticias={noticias} img1={img1} img2={img2} img3={img3} img4={img4} img5={img5} />
       <SliderCareers agricola={agricola} agroforestal={agroforestal} agroindustria={agroindustria} ambiente={ambiente}  computacion={computacion} electronica={electronica} empresas={empresas} publica={publica} riesgos={riesgos} turismo={turismo} veterinaria={veterinaria} flecha={flecha}

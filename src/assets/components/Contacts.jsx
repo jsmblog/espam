@@ -38,11 +38,11 @@ const Contacts = ({mapa, facebook , youtube , twiter , instagram , flickr}) => {
             </div>
             <div className='boxContact heartbeat'>
                 <span>Follow us on our social networks</span>
-                <img width={50} src={facebook} alt="" />
-                <img width={50} src={twiter} alt="" />
-                <img width={50} src={flickr} alt="" />
-                <img width={50} src={youtube} alt="" />
-                <img width={50} src={instagram} alt="" />
+                <a target={'_blank'} href="https://www.facebook.com/espammfloficial/"><img width={50} src={facebook} alt="" /></a>
+               <a target={'_blank'} href="https://twitter.com/espammfl?lang=es"> <img width={50} src={twiter} alt="" /></a>
+                <a target={'_blank'} href="https://www.flickr.com/photos/espammfl/albums"><img width={50} src={flickr} alt="" /></a>
+                <a target={'_blank'} href="https://www.youtube.com/channel/UCVfV2krD-xKVnvhNPZm_8Gw"><img width={50} src={youtube} alt="" /></a>
+              <a target={'_blank'} href="https://www.instagram.com/espammfl/">  <img width={50} src={instagram} alt="" /></a>
             </div>
         </div>
         <div className='lastSection'>

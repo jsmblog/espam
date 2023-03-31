@@ -63,6 +63,89 @@
     background-color: var(--gray);
     box-shadow: 0 0px 50px 1px var( --green-opacity-70);
 }
+.linkBioMfl {
+        border-bottom: 3px solid var(--green);
+        padding:0 .2rem .3rem .2rem ;
+        font-weight: bold;
+        color: var(--white);
+        text-shadow: 3px 3px 3px var(--green);
+}
+.linkBioMfl:hover {
+        color:var(--green-opacity-70);
+        text-shadow: 3px 3px 3px var(--black) ;
+}
+#close {
+        display: none;
+ }
+.boxBioOff {
+        display: none;
+}
+.boxBio {
+        display: block;
+        border: 1px solid var(--green);
+        box-shadow: 0 0 30px .1px  var(--gray);
+        border-radius: 20px;
+        background-color: white;
+        width: 90%;
+        position:absolute;
+        top: 15%;
+        height: 80%;
+       margin:0 1.1rem;
+}
+.imgPrincipalBio {
+        width: 100%;
+        height: 25%;
+}
+.imgPrincipalBio img {
+        border-radius: 20px 20px 0px 0;
+        border-bottom: 10px solid var(--green);  
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+}
+.imgBioMflCt {
+        background-color: var(--green-light);
+        position: relative;
+        bottom: 4.5rem;
+        border: 4px solid var(--green);
+        display: inline-block;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+}
+.namePositionMfl {
+        background-color: var(--green-light);
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom: 4rem;
+        width: 100%;
+        font-size: .9rem;
+        color: var(--green-opacity-70);
+}
+.contMoreInfo {
+        box-shadow: 0 0 30px .1px  var(--gray);
+        position: relative;
+        bottom: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 1rem;
+}
+.contMoreInfo img {
+        width: 35px ;
+}
+.contMoreInfo span {
+        padding-left: .5rem;
+        font-size: .9rem;
+        color: var(--green);
+}
+.closeBio {
+        position: absolute;
+        top: 0;
+        right: 0;
+}
+
 /*animations*/
 .bounce-in-top {
 	-webkit-animation: bounce-in-top 3s ;
@@ -308,4 +391,60 @@
       opacity: 1;
     }
   }
-  
+  .slide-in-fwd-center {
+	-webkit-animation: slide-in-fwd-center 5s ;
+	        animation: slide-in-fwd-center 5s ;
+}
+@-webkit-keyframes slide-in-fwd-center {
+        0% {
+          -webkit-transform: translateZ(-1400px);
+                  transform: translateZ(-1400px);
+          opacity: 0;
+        }
+        100% {
+          -webkit-transform: translateZ(0);
+                  transform: translateZ(0);
+          opacity: 1;
+        }
+      }
+      @keyframes slide-in-fwd-center {
+        0% {
+          -webkit-transform: translateZ(-1400px);
+                  transform: translateZ(-1400px);
+          opacity: 0;
+        }
+        100% {
+          -webkit-transform: translateZ(0);
+                  transform: translateZ(0);
+          opacity: 1;
+        }
+      }
+      .slide-out-top {
+	-webkit-animation: slide-out-top 2s ;
+	        animation: slide-out-top 2s ;
+}
+@-webkit-keyframes slide-out-top {
+        0% {
+          -webkit-transform: translateY(0);
+                  transform: translateY(0);
+          opacity: 1;
+        }
+        100% {
+          -webkit-transform: translateY(-1000px);
+                  transform: translateY(-1000px);
+          opacity: 0;
+        }
+      }
+      @keyframes slide-out-top {
+        0% {
+          -webkit-transform: translateY(0);
+                  transform: translateY(0);
+          opacity: 1;
+        }
+        100% {
+          -webkit-transform: translateY(-1000px);
+                  transform: translateY(-1000px);
+          opacity: 0;
+        }
+      }
+      
