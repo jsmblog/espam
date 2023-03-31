@@ -36,12 +36,12 @@ const Principal = ({campusPolitecnico , logoEspam , imgFounder,campusImg , nacid
         </div>
         <div className='paragraph'>
             <p>
-            The Escuela Superior Politécnica Agropecuaria de Manabí Manuel Félix López, was born from the initiative of a great politician like <a onClick={handleClickBio} className='linkBioMfl flicker-2' href="#">{` `} Manuel Félix López</a> , <br /> Patron and mentor of this great educational work.
+            The Escuela Superior Politécnica Agropecuaria de Manabí Manuel Félix López, was born from the initiative of a great politician like <button onClick={handleClickBio} className='linkBioMfl flicker-2' href="#">{` `} Manuel Félix López</button> , <br /> Patron and mentor of this great educational work.
             </p>
         </div>
         
     </div>
-    <div id={`${closeBioBtn}`} className={`${lookBio} slide-in-fwd-center`}>
+    <div id={`${closeBioBtn}`} className={`${lookBio} slide-in-elliptic-bottom-fwd`}>
         <div className='imgPrincipalBio'><img src={campusImg} alt="" /></div>
         <div >
         <img className='imgBioMflCt' src={imgFounder} alt="" />

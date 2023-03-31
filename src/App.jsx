@@ -54,6 +54,7 @@ import alcalde from './photos/archivos para la pagina web ESPAM/alcalde.png'
 import vicepresidente from './photos/archivos para la pagina web ESPAM/vicepresidente.png'
 import tumba from './photos/archivos para la pagina web ESPAM/tumba.png'
 import cerrar from './photos/archivos para la pagina web ESPAM/cerrar.png'
+import touch from './photos/archivos para la pagina web ESPAM/touch.png'
 function App() {
 
   return (
@@ -62,7 +63,7 @@ function App() {
       <Principal cerrar={cerrar} nacido={nacido} gerente={gerente} alcalde={alcalde} vicepresidente={vicepresidente} tumba={tumba} campusImg={campusImg} logoEspam={logoEspam} campusPolitecnico={campusPolitecnico} imgFounder={imgFounder} />
       <ValuesHuman  commitment={commitment} security={security} trust={trust} honesty={honesty} responsibility={responsibility} environment={environment} impulse={impulse} />
       <News noticias={noticias} img1={img1} img2={img2} img3={img3} img4={img4} img5={img5} />
-      <SliderCareers agricola={agricola} agroforestal={agroforestal} agroindustria={agroindustria} ambiente={ambiente}  computacion={computacion} electronica={electronica} empresas={empresas} publica={publica} riesgos={riesgos} turismo={turismo} veterinaria={veterinaria} flecha={flecha}
+      <SliderCareers touch={touch} agricola={agricola} agroforestal={agroforestal} agroindustria={agroindustria} ambiente={ambiente}  computacion={computacion} electronica={electronica} empresas={empresas} publica={publica} riesgos={riesgos} turismo={turismo} veterinaria={veterinaria} flecha={flecha}
        />
        <Rules admision={admision} reglamentacion={reglamentacion} transparencia={transparencia} merecer={merecer} biblioteca={biblioteca} />
        <Contacts mapa={mapa} facebook={facebook} twiter={twiter} instagram={instagram} flickr={flickr} youtube={youtube}  />

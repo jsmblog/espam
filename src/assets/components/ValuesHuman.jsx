@@ -55,6 +55,9 @@ const ValuesHuman = ({commitment , security , trust , honesty , responsibility ,
         </p>
       </div>
     </div>
+      <div className='textNews'>
+        <h3>News <span className='fade-in-top'>↓</span></h3>
+      </div>
     </>
   )
 }
