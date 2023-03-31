@@ -2,12 +2,12 @@ import React from 'react'
 
 const Contacts = ({mapa, facebook , youtube , twiter , instagram , flickr}) => {
   return (
-    <div className="contContacts">
+    <div id='contacts' className="contContacts">
         <div className='Contact'><h3>Contacts and Location</h3></div>
         <div className='smsContact'><h2>OPENING HOURS CENTRAL OFFICES | MONDAY TO FRIDAY |</h2></div>
         <div className='contHourAtt'>
             <div className='hourAtt'>
-                <span>08:30 - 13:00 {`/`} 14:00 - 17:30 </span>
+                <span className='flicker-2'>08:30 - 13:00 {`/`} 14:00 - 17:30 </span>
             </div>
         </div>
         <div className='contCardInfo'>

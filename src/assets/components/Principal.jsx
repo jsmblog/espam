@@ -54,15 +54,15 @@ const Principal = ({campusPolitecnico , logoEspam , imgFounder,campusImg , nacid
             </div>
             <div>
                 <img src={gerente} alt="" />
-                <span>Empresario</span>
+                <span>Businessman</span>
             </div>
             <div>
                 <img src={alcalde} alt="" />
-                <span>Político</span>
+                <span>Political</span>
             </div>
             <div>
                 <img src={vicepresidente} alt="" />
-                <span>Vicepresidente  del parlamento Andino</span>
+                <span>Vicepresident  of the Parlament Andino</span>
             </div>
             <div>
                 <img src={tumba} alt="" />

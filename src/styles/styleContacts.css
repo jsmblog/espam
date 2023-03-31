@@ -44,6 +44,7 @@
     border-radius: 8px;
     box-shadow: 0 0 15px 1px var(--green);
     border: 2px solid var(--gray);
+    width: 19rem;
 }
 .boxContact h4 {
     color: var(--green);

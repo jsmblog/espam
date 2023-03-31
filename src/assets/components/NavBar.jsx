@@ -10,10 +10,10 @@ const NavBar = ({logoEspam , logoUser , menu}) => {
   return (
    <>
    <div className={`${menuOnClick} onoff`}>
-    <h2>University</h2>
-    <h2>News</h2>
-    <h2>Careers</h2>
-    <h2>Contacts</h2>
+    <a href="#offerA"><h2 className='coH2'>University</h2></a> 
+    <a href="#news"><h2 className='coH2'>News</h2></a>
+    <a href="#careers"><h2 className='coH2'>Careers</h2></a>
+    <a href="#contacts"><h2 className='coH2'>Contacts</h2></a>
    </div>
     <div>
         <nav className='navBar'>

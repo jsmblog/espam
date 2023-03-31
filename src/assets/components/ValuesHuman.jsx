@@ -45,7 +45,7 @@ const ValuesHuman = ({commitment , security , trust , honesty , responsibility ,
             </div>
       </div>
     </div>
-    <div className='contOfferAcademic'>
+    <div id='offerA' className='contOfferAcademic'>
       <div className='offerAcademic'>
         <h2>academic Offer of the ESPAM MFL</h2>
       </div>
@@ -55,8 +55,8 @@ const ValuesHuman = ({commitment , security , trust , honesty , responsibility ,
         </p>
       </div>
     </div>
-      <div className='textNews'>
-        <h3>News <span className='fade-in-top'>↓</span></h3>
+      <div id='news' className='textNews'>
+        <h3  >News <span className='fade-in-top'>↓</span></h3>
       </div>
     </>
   )

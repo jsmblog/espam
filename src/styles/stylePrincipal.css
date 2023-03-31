@@ -123,12 +123,13 @@
         color: var(--green-opacity-70);
 }
 .contMoreInfo {
-        box-shadow: 0 0 30px .1px  var(--gray);
         position: relative;
         bottom: 3rem;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
         gap: 1rem;
 }
 .contMoreInfo img {

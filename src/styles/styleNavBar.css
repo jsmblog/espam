@@ -1,6 +1,9 @@
 .onoff {
         display: none;
 }
+.coH2 {
+        color: var(--green);
+}
 .navBar {
    z-index: 2;
     position: fixed;

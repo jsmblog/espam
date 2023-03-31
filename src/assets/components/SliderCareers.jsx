@@ -10,7 +10,7 @@ import "swiper/css/navigation";
 // import required modules
 import { Pagination, Navigation } from "swiper";
 
-const SliderCareers = ({agricola, agroforestal,agroindustria,ambiente,computacion, electronica , empresas , publica , riesgos , turismo , veterinaria , flecha , touch}) => {
+const SliderCareers = ({agricola, agroforestal,agroindustria,ambiente,computacion, electronica , empresas , publica , riesgos , turismo , veterinaria , flecha }) => {
   return (
     <>
       <Swiper
@@ -22,7 +22,7 @@ const SliderCareers = ({agricola, agroforestal,agroindustria,ambiente,computacio
         className="mySwiper"
       >
         <div>
-        <SwiperSlide>
+        <SwiperSlide id='careers'>
             <div className="contSlider">
                 <div><span></span></div>
                 <div className="imgCareer"><img  src={agricola} alt="" /></div>
