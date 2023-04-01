@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const NavBar = ({logoEspam , logoUser , menu}) => {
+const NavBar = ({logoEspam , logoUser , menu }) => {
     const [isOn, setIsOn] = useState(false)
 
     const handleClickMenu = () => {
@@ -67,7 +67,7 @@ const NavBar = ({logoEspam , logoUser , menu}) => {
         </nav>
         
     </div>
-   
+  
    </>
   )
 }

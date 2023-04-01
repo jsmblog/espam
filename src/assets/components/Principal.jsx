@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const Principal = ({campusPolitecnico , logoEspam , imgFounder,campusImg , nacido , gerente , alcalde , vicepresidente , tumba , cerrar}) => {
+const Principal = ({campusPolitecnico , logoEspam , imgFounder,campusImg , nacido , gerente , alcalde , vicepresidente , tumba , cerrar , darkMode , handleClickDarkMode}) => {
 
     const [onBio, setOnBio] = useState(false)
     const [closeBio, setCloseBio] = useState(false)
@@ -38,6 +38,10 @@ const Principal = ({campusPolitecnico , logoEspam , imgFounder,campusImg , nacid
             <p>
             The Escuela Superior Politécnica Agropecuaria de Manabí Manuel Félix López, was born from the initiative of a great politician like <button onClick={handleClickBio} className='linkBioMfl flicker-2' href="#">{` `} Manuel Félix López</button> , <br /> Patron and mentor of this great educational work.
             </p>
+        </div>
+        
+        <div >
+                <img onClick={handleClickDarkMode} className='btnDarkMode btnDarkMode-position_fixed ' width={50} src={darkMode} alt="" />
         </div>
         
     </div>

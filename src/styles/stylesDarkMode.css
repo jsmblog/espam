@@ -1,0 +1,141 @@
+:root {
+    --green-phithalo : #123524;
+    --green-racing: #004225;
+    --green-cadmium: #00563f;
+    --green-hunter :#355e3b;
+    --gray-DEDEDE :#eff3f5;
+    --green-green:#306e38;
+    --green-letter:#47924f;
+    --other-white:#CFCFCF;
+}
+#stlDmode .navBar {
+    background-color: var(--green-phithalo);
+    transition:2.5s ease;
+}
+
+#stlDmode .contImgUser {
+    background-color: var(--green-racing) ;
+    transition:2.5s ease;
+}
+#stlDmode .sga {
+color:--gray-light;
+transition:2.5s ease;
+}
+#stlDmode .nameUniversity {
+    color: var(--gray-light);
+    transition:2.5s ease;
+}
+#stlDmode .contImgFounder {
+    background-color: var(--green-racing);
+    transition:2.5s ease;
+}
+#stlDmode .contImgCampus {
+    border-bottom: 8px solid var(--green-racing);
+    transition:2.5s ease;
+}
+#stlDmode .contPrincipal {
+    background-color: var(--green-cadmium);
+    transition:2.5s ease;
+}
+#stlDmode .paragraph p {
+background-color: var(--green-hunter);
+color: var(--gray-DEDEDE);
+transition:2.5s ease;
+}
+#stlDmode  .btnDarkMode  {
+    background-color: var(--gray-DEDEDE);
+    transition:2.5s ease;
+}
+#stlDmode .contValuesHuman {
+    background-color: var(--gray-DEDEDE);
+    transition:2.5s ease;
+}
+#stlDmode .characterized {
+    background-color: var(--gray-DEDEDE);
+    transition:2.5s ease;
+    color: var(--green-green);
+}
+#stlDmode .contValuesHuman div {
+    color: var(--gray-DEDEDE);
+    background-color: var(--green-cadmium);
+    transition:2.5s ease;
+}
+#stlDmode .contOfferAcademic {
+    background-color: var(--green-racing);
+    transition:2.5s ease;
+}
+#stlDmode .offerAcademic {
+    color: var(--green-letter);
+    transition:2.5s ease;
+}
+#stlDmode .paragraphOffer {
+    color: var(--gray-DEDEDE);
+    transition:2.5s ease;
+}
+#stlDmode .textNews {
+    background-color: var(--green-racing);
+    transition:2.5s ease;
+    color: var(--green-letter);
+}
+#stlDmode .imgCareer {
+    background-color:var(--gray-DEDEDE) ;
+    border: 3px solid var(--green-phithalo);
+    transition:2.5s ease;
+}
+#stlDmode .contSlider h3 {
+    background-color: var(--green-racing);
+    transition:2.5s ease;
+    color:var(--gray-DEDEDE);
+}
+#stlDmode .imgFlecha {
+    background-color:var(--gray-DEDEDE) ;
+    transition:2.5s ease; 
+}
+#stlDmode .moreInfo {
+    background-color: var(--gray-DEDEDE);
+    color:var(--green-letter);
+    transition:2.5s ease; 
+}
+#stlDmode  .contMoreInfoCard {
+    background-color: var(--gray-DEDEDE);
+    transition:2.5s ease; 
+}
+#stlDmode .rulesCard {
+    background-color: var(--green-cadmium);
+    transition:2.5s ease; 
+}
+#stlDmode .rulesCard span {
+    color:var(--gray-DEDEDE);
+    transition:2.5s ease; 
+}
+#stlDmode .contContacts {
+    background-color: var(--green-cadmium);
+    transition:2.5s ease; 
+}
+#stlDmode .Contact h3  {
+    color:var(--gray-DEDEDE);
+    border-bottom:3px solid var(--green-phithalo);
+    border-top:3px solid var(--green-phithalo);
+    transition:2.5s ease; 
+}
+#stlDmode .smsContact {
+    color:var(--gray-DEDEDE);
+    transition:2.5s ease; 
+}
+#stlDmode .hourAtt {
+background-color: var(--green-letter);
+color: var(--gray-DEDEDE);
+transition:2.5s ease;
+}
+#stlDmode .boxContact {
+    background-color: var(--gray-DEDEDE);
+    transition:2.5s ease;
+}
+#stlDmode .boxContact h4 {
+    color: var(--green-letter);
+    transition:2.5s ease;
+}
+#stlDmode .boxContact span {
+color: var(--other-white);
+transition:2.5s ease;
+}

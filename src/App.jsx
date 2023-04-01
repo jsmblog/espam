@@ -54,12 +54,22 @@ import alcalde from './photos/archivos para la pagina web ESPAM/alcalde.png'
 import vicepresidente from './photos/archivos para la pagina web ESPAM/vicepresidente.png'
 import tumba from './photos/archivos para la pagina web ESPAM/tumba.png'
 import cerrar from './photos/archivos para la pagina web ESPAM/cerrar.png'
+import darkMode from './photos/archivos para la pagina web ESPAM/darkMode.png'
+import { useState } from 'react'
 function App() {
 
+const [isOnDarkMode, setIsOnDarkMode] = useState(false)
+
+const handleClickDarkMode = () => {
+  setIsOnDarkMode(!isOnDarkMode)
+  console.log(isOnDarkMode)
+}
+
+const isDarkModeActivated = (isOnDarkMode) ? "stlDmode" : ""
   return (
-    <div className="App">
-      <NavBar logoEspam={logoEspam} logoUser={logoUser} menu={menu} />
-      <Principal cerrar={cerrar} nacido={nacido} gerente={gerente} alcalde={alcalde} vicepresidente={vicepresidente} tumba={tumba} campusImg={campusImg} logoEspam={logoEspam} campusPolitecnico={campusPolitecnico} imgFounder={imgFounder} />
+    <div id={`${isDarkModeActivated}`} className="App">
+      <NavBar  logoEspam={logoEspam} logoUser={logoUser} menu={menu} />
+      <Principal handleClickDarkMode={handleClickDarkMode} darkMode={darkMode} cerrar={cerrar} nacido={nacido} gerente={gerente} alcalde={alcalde} vicepresidente={vicepresidente} tumba={tumba} campusImg={campusImg} logoEspam={logoEspam} campusPolitecnico={campusPolitecnico} imgFounder={imgFounder} />
       <ValuesHuman  commitment={commitment} security={security} trust={trust} honesty={honesty} responsibility={responsibility} environment={environment} impulse={impulse} />
       <News noticias={noticias} img1={img1} img2={img2} img3={img3} img4={img4} img5={img5} />
       <SliderCareers  agricola={agricola} agroforestal={agroforestal} agroindustria={agroindustria} ambiente={ambiente}  computacion={computacion} electronica={electronica} empresas={empresas} publica={publica} riesgos={riesgos} turismo={turismo} veterinaria={veterinaria} flecha={flecha}
